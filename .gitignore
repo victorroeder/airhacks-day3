@@ -2,3 +2,4 @@ repo.git.tar
 target/
 .DS_Store
 /reactive/nbproject/
+/java-plugins/nbproject/
