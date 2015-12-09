@@ -10,7 +10,8 @@ import javax.ejb.Stateless;
 public class GiftFactory {
 
     public String nextGift() {
-        return "mindstorms " + System.currentTimeMillis();
+        throw new IllegalStateException("santa is overloaded");
+        //return "mindstorms " + System.currentTimeMillis();
     }
 
 }
